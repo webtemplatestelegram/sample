@@ -1,0 +1,10 @@
+2021-08-24T12:40:32.005739+00:00 app[web.1]:   File "/app/EzilaXBotV/modules/imgeditor.py", line 37, in <module>
+2021-08-24T12:40:32.005799+00:00 app[web.1]:     from EzilaXBotV.Addons.ImageEditor.edit_4 import (  # pylint:disable=import-error
+2021-08-24T12:40:32.005810+00:00 app[web.1]:   File "/app/EzilaXBotV/Addons/ImageEditor/edit_4.py", line 11, in <module>
+2021-08-24T12:40:32.005864+00:00 app[web.1]:     from EzilaXBotV.config import get_str_key
+2021-08-24T12:40:32.005871+00:00 app[web.1]:   File "/app/EzilaXBotV/config.py", line 22, in <module>
+2021-08-24T12:40:32.005926+00:00 app[web.1]:     from EzilaXBotV.utils.logger import log
+2021-08-24T12:40:32.005946+00:00 app[web.1]: ModuleNotFoundError: No module named 'EzilaXBotV.utils.logger'
+2021-08-24T12:40:32.390397+00:00 heroku[web.1]: Process exited with status 1
+2021-08-24T12:40:32.453893+00:00 heroku[web.1]: State changed from starting to crashed
+2021-08-24T12:40:48.004226+00:00 app[api]: Scaled to web@1:Free worker@1:Free by user ezilaxupdate@yandex.com
